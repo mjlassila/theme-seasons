@@ -290,7 +290,6 @@ nav {
 
     .current, .active {
         font-weight: 500;
-        text-transform: uppercase;
     }
 
     ul {
@@ -605,7 +604,6 @@ footer {
     & > h1 {
         font-size:1.5 * $base-font-size;
         line-height: 2 * $base-line-height;
-        text-transform: uppercase;
         border-top: 0;
         padding: 0 0 (.5 * $spacing-unit);
         margin: 0;
@@ -866,8 +864,7 @@ footer {
 
             h3 {
                 margin-top: 0;
-                font-weight: 300;
-                text-transform: uppercase;
+                font-weight: 400;
             }
 
             img {
@@ -1282,7 +1279,6 @@ footer {
                 margin-right: 0;
 
                 &:first-of-type {
-                    text-transform: uppercase;
                     padding: (.25 * $spacing-unit) 8px;
 
                     a:after { content: ":"; }

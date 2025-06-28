@@ -280,7 +280,6 @@ th {
   }
   .secondary-nav .current, .secondary-nav .active, #secondary-nav .current, #secondary-nav .active {
     font-weight: 500;
-    text-transform: uppercase;
   }
   .secondary-nav ul, #secondary-nav ul {
     padding-left: 0;
@@ -573,7 +572,6 @@ nav.pagination .pagination_list .pagination_previous a:after, nav.pagination .pa
   #content > h1 {
     font-size: 24px;
     line-height: 48px;
-    text-transform: uppercase;
     border-top: 0;
     padding: 0 0 12px;
     margin: 0;
@@ -806,8 +804,7 @@ nav.pagination .pagination_list .pagination_previous a:after, nav.pagination .pa
   }
   #home #content div h3 {
     margin-top: 0;
-    font-weight: 300;
-    text-transform: uppercase;
+    font-weight: 400;
   }
   #home #content div img {
     border: 1px solid #dfe2e2;
@@ -1181,7 +1178,6 @@ nav.pagination .pagination_list .pagination_previous a:after, nav.pagination .pa
     margin-right: 0;
   }
   .exhibits.show #content .exhibit-page-nav > li:first-of-type {
-    text-transform: uppercase;
     padding: 6px 8px;
   }
   .exhibits.show #content .exhibit-page-nav > li:first-of-type a:after {
