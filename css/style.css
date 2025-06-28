@@ -1452,6 +1452,167 @@ nav.pagination .pagination_list .pagination_previous a:after, nav.pagination .pa
     background-color: #fff;
   }
 
+  /* !---------- Keuruun Veräjä Styles ---------- */
+  .veraja body {
+    background-color: #2f3e4a;
+    color: #5a5a5a;
+  }
+  .veraja h1, .veraja #site-title a {
+    color: red;
+  }
+  .veraja input[type=submit], .veraja button, .veraja .button, .veraja .show-advanced.button {
+    background-color: #4b6569;
+  }
+  .veraja input[type=text], .veraja input[type=password], .veraja textarea {
+    background-color: #dfe2e2;
+  }
+  .veraja a:link {
+    color: #228494;
+  }
+  .veraja a:visited {
+    color: #43ADB8;
+  }
+  .veraja a:hover, .veraja a:active, .veraja a:focus {
+    color: #3acacc;
+  }
+  .veraja header {
+    background-color: #fff;
+  }
+  .veraja nav.top {
+    background-color: #228494;
+  }
+  .veraja nav.top li:hover a {
+    color: #fff;
+  }
+  .veraja nav.top a:link, .veraja nav.top a:visited {
+    color: #def9ff;
+  }
+  .veraja nav.top a:active, .veraja nav.top a:hover, .veraja nav.top a:focus, .veraja nav.top a.open {
+    color: #fff;
+  }
+  .veraja nav.top .sub-nav {
+    background-color: #2796a9;
+  }
+  .veraja nav.top .sub-nav li > a:link, .veraja nav.top .sub-nav li > a:visited, .veraja nav.top .sub-nav li > a:active, .veraja nav.top .sub-nav li > a:hover, .veraja nav.top .sub-nav li > a:focus {
+    color: #fff;
+  }
+  .veraja nav.top .sub-nav li a:focus, .veraja nav.top .sub-nav li a:hover {
+    background-color: rgba(0, 0, 0, 0.15);
+  }
+  .veraja #intro {
+    color: #fff;
+  }
+  .veraja #content,
+.veraja #secondary-nav .current a,
+.veraja #secondary-nav a.current,
+.veraja .secondary-nav .current a,
+.veraja .secondary-nav a.current,
+.veraja .exhibit-section-nav .current a {
+    background-color: #43ADB8;
+  }
+  .veraja #home #content > div {
+    border-color: #4b6569;
+  }
+  .veraja #content > h1 {
+    color: #fff;
+  }
+  .veraja #content h2 {
+    border-color: #dfe2e2;
+  }
+  .veraja #content > div, .veraja #content #primary > div, .veraja #content #sidebar > div,
+.veraja #content #advanced-search-form > div, .veraja #content #exhibit-pages {
+    border-color: #4b6569;
+  }
+  .veraja #content #primary > div, .veraja #content #sidebar > div {
+    background-color: #fff;
+  }
+  .veraja #content .pagination_previous a, .veraja #content .pagination_next a {
+    background-color: #4b6569;
+  }
+  .veraja #content .pagination {
+    color: #fff;
+  }
+  .veraja #content .pagination a:link, .veraja #content .pagination a:visited {
+    color: #def9ff;
+  }
+  .veraja #content .pagination a:hover, .veraja #content .pagination a:active {
+    color: #fff;
+  }
+  .veraja #content .pagination input[type=text] {
+    border-color: #dfe2e2;
+    background-color: #fff;
+  }
+  .veraja #content nav .pagination_list {
+    background-color: #228494;
+  }
+  .veraja #content .items-nav, .veraja #content .secondary-nav,
+.veraja #content #secondary-nav,
+.veraja #content #outputs,
+.veraja #content #exhibit-child-pages,
+.veraja #content #login-links a {
+    color: #fff;
+  }
+  .veraja #content .items-nav a:link, .veraja #content .items-nav a:visited, .veraja #content .secondary-nav a:link, .veraja #content .secondary-nav a:visited,
+.veraja #content #secondary-nav a:link,
+.veraja #content #secondary-nav a:visited,
+.veraja #content #outputs a:link,
+.veraja #content #outputs a:visited,
+.veraja #content #exhibit-child-pages a:link,
+.veraja #content #exhibit-child-pages a:visited,
+.veraja #content #login-links a a:link,
+.veraja #content #login-links a a:visited {
+    color: #def9ff;
+  }
+  .veraja #content .items-nav a:hover, .veraja #content .items-nav a:active, .veraja #content .secondary-nav a:hover, .veraja #content .secondary-nav a:active,
+.veraja #content #secondary-nav a:hover,
+.veraja #content #secondary-nav a:active,
+.veraja #content #outputs a:hover,
+.veraja #content #outputs a:active,
+.veraja #content #exhibit-child-pages a:hover,
+.veraja #content #exhibit-child-pages a:active,
+.veraja #content #login-links a a:hover,
+.veraja #content #login-links a a:active {
+    color: #fff;
+  }
+  .veraja #content .item-img {
+    border-color: #dfe2e2;
+  }
+  .veraja #content div.hTagcloud {
+    border: 0;
+    background-color: transparent;
+    box-shadow: transparent 0 0 0;
+  }
+  .veraja #search-results th {
+    background-color: #4b6569;
+  }
+  .veraja #search-filters li, .veraja #item-filters li {
+    background-color: #def9ff;
+  }
+  .veraja .page #content {
+    border-color: #4b6569;
+  }
+  .veraja footer {
+    background-color: #2f3e4a;
+  }
+  .veraja footer p {
+    color: #fff;
+  }
+  .veraja .exhibit-page-nav {
+    background-color: #4b6569;
+  }
+  .veraja .exhibit-page-nav .current, .veraja .exhibit-child-nav .current {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+  .veraja .exhibit-page-nav a:link, .veraja .exhibit-page-nav a:visited {
+    color: #def9ff;
+  }
+  .veraja .exhibit-page-nav a:hover, .veraja .exhibit-page-nav a:active {
+    color: #fff;
+  }
+  .veraja #exhibit-page-navigation a, .veraja #exhibit-page-navigation span {
+    background-color: #fff;
+  }
+
   /* !---------- Spring Styles ---------- */
   .spring body {
     background-color: #4A6F14;
