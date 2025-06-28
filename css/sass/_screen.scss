@@ -28,11 +28,12 @@ Table of Contents
 
 /* !---------- General HTML Elements ---------- */
 
+/* General HTML Elements */
 body {
-    font-family: "Ubuntu", sans-serif;
-    font-weight: 300;
-    font-size: $base-font-size;
-    line-height: $base-line-height;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;          /* Increased from 300 for better readability */
+    font-size: 17px;           /* Slightly larger for accessibility */
+    line-height: 1.6;          /* Improves vertical spacing */
     word-wrap: break-word;
     height: 100%;
 }

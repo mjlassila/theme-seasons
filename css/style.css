@@ -27,11 +27,15 @@
   -- Night Styles
   */
   /* !---------- General HTML Elements ---------- */
+  /* General HTML Elements */
   body {
-    font-family: "Ubuntu", sans-serif;
-    font-weight: 300;
-    font-size: 16px;
-    line-height: 24px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    /* Increased from 300 for better readability */
+    font-size: 17px;
+    /* Slightly larger for accessibility */
+    line-height: 1.6;
+    /* Improves vertical spacing */
     word-wrap: break-word;
     height: 100%;
   }
@@ -1454,44 +1458,44 @@ nav.pagination .pagination_list .pagination_previous a:after, nav.pagination .pa
 
   /* !---------- Keuruun Veräjä Styles ---------- */
   .veraja body {
-    background-color: #2f3e4a;
-    color: #5a5a5a;
+    background-color: #1e2b35;
+    color: #3a3a3a;
   }
   .veraja h1, .veraja #site-title a {
-    color: red;
+    color: #859ca2;
   }
   .veraja input[type=submit], .veraja button, .veraja .button, .veraja .show-advanced.button {
-    background-color: #4b6569;
+    background-color: #2f4447;
   }
   .veraja input[type=text], .veraja input[type=password], .veraja textarea {
-    background-color: #dfe2e2;
+    background-color: #c5c8c8;
   }
   .veraja a:link {
-    color: #228494;
+    color: #007c8c;
   }
   .veraja a:visited {
-    color: #43ADB8;
+    color: #2598a4;
   }
   .veraja a:hover, .veraja a:active, .veraja a:focus {
-    color: #3acacc;
+    color: #1fb7bb;
   }
   .veraja header {
     background-color: #fff;
   }
   .veraja nav.top {
-    background-color: #228494;
+    background-color: #007c8c;
   }
   .veraja nav.top li:hover a {
     color: #fff;
   }
   .veraja nav.top a:link, .veraja nav.top a:visited {
-    color: #def9ff;
+    color: #c4f0f7;
   }
   .veraja nav.top a:active, .veraja nav.top a:hover, .veraja nav.top a:focus, .veraja nav.top a.open {
     color: #fff;
   }
   .veraja nav.top .sub-nav {
-    background-color: #2796a9;
+    background-color: #0093a6;
   }
   .veraja nav.top .sub-nav li > a:link, .veraja nav.top .sub-nav li > a:visited, .veraja nav.top .sub-nav li > a:active, .veraja nav.top .sub-nav li > a:hover, .veraja nav.top .sub-nav li > a:focus {
     color: #fff;
@@ -1508,42 +1512,42 @@ nav.pagination .pagination_list .pagination_previous a:after, nav.pagination .pa
 .veraja .secondary-nav .current a,
 .veraja .secondary-nav a.current,
 .veraja .exhibit-section-nav .current a {
-    background-color: #43ADB8;
+    background-color: #2598a4;
   }
   .veraja #home #content > div {
-    border-color: #4b6569;
+    border-color: #2f4447;
   }
   .veraja #content > h1 {
     color: #fff;
   }
   .veraja #content h2 {
-    border-color: #dfe2e2;
+    border-color: #c5c8c8;
   }
   .veraja #content > div, .veraja #content #primary > div, .veraja #content #sidebar > div,
 .veraja #content #advanced-search-form > div, .veraja #content #exhibit-pages {
-    border-color: #4b6569;
+    border-color: #2f4447;
   }
   .veraja #content #primary > div, .veraja #content #sidebar > div {
     background-color: #fff;
   }
   .veraja #content .pagination_previous a, .veraja #content .pagination_next a {
-    background-color: #4b6569;
+    background-color: #2f4447;
   }
   .veraja #content .pagination {
     color: #fff;
   }
   .veraja #content .pagination a:link, .veraja #content .pagination a:visited {
-    color: #def9ff;
+    color: #c4f0f7;
   }
   .veraja #content .pagination a:hover, .veraja #content .pagination a:active {
     color: #fff;
   }
   .veraja #content .pagination input[type=text] {
-    border-color: #dfe2e2;
+    border-color: #c5c8c8;
     background-color: #fff;
   }
   .veraja #content nav .pagination_list {
-    background-color: #228494;
+    background-color: #007c8c;
   }
   .veraja #content .items-nav, .veraja #content .secondary-nav,
 .veraja #content #secondary-nav,
@@ -1561,7 +1565,7 @@ nav.pagination .pagination_list .pagination_previous a:after, nav.pagination .pa
 .veraja #content #exhibit-child-pages a:visited,
 .veraja #content #login-links a a:link,
 .veraja #content #login-links a a:visited {
-    color: #def9ff;
+    color: #c4f0f7;
   }
   .veraja #content .items-nav a:hover, .veraja #content .items-nav a:active, .veraja #content .secondary-nav a:hover, .veraja #content .secondary-nav a:active,
 .veraja #content #secondary-nav a:hover,
@@ -1575,7 +1579,7 @@ nav.pagination .pagination_list .pagination_previous a:after, nav.pagination .pa
     color: #fff;
   }
   .veraja #content .item-img {
-    border-color: #dfe2e2;
+    border-color: #c5c8c8;
   }
   .veraja #content div.hTagcloud {
     border: 0;
@@ -1583,28 +1587,28 @@ nav.pagination .pagination_list .pagination_previous a:after, nav.pagination .pa
     box-shadow: transparent 0 0 0;
   }
   .veraja #search-results th {
-    background-color: #4b6569;
+    background-color: #2f4447;
   }
   .veraja #search-filters li, .veraja #item-filters li {
-    background-color: #def9ff;
+    background-color: #c4f0f7;
   }
   .veraja .page #content {
-    border-color: #4b6569;
+    border-color: #2f4447;
   }
   .veraja footer {
-    background-color: #2f3e4a;
+    background-color: #1e2b35;
   }
   .veraja footer p {
     color: #fff;
   }
   .veraja .exhibit-page-nav {
-    background-color: #4b6569;
+    background-color: #2f4447;
   }
   .veraja .exhibit-page-nav .current, .veraja .exhibit-child-nav .current {
     background-color: rgba(0, 0, 0, 0.1);
   }
   .veraja .exhibit-page-nav a:link, .veraja .exhibit-page-nav a:visited {
-    color: #def9ff;
+    color: #c4f0f7;
   }
   .veraja .exhibit-page-nav a:hover, .veraja .exhibit-page-nav a:active {
     color: #fff;

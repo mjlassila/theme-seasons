@@ -93,14 +93,14 @@ $spacing-unit   : $base-line-height;
     // ---------------------------------------------------------------------
     // Keuruun Veräjä colors
 
-    $veraja-light-gray: #dfe2e2;
-    $veraja-dark-gray: #5a5a5a;
-    $veraja-title-blue: #859ca2;
-    $veraja-slate: #4b6569;
-    $veraja-blue-on-pale-blue: #def9ff;
-    $veraja-bright-blue: #228494;
-    $veraja-hover-blue: #3acacc;
-    $veraja-pale-blue: #43ADB8;
-    $veraja-footer-blue: #2f3e4a;
-    $veraja-off-white: #f8f8f8;
+    $veraja-light-gray: #c5c8c8;         // Darkened slightly from #dfe2e2
+    $veraja-dark-gray: #3a3a3a;          // Much darker for stronger contrast
+    $veraja-title-blue: #5f7c83;         // Deeper shade of desaturated blue
+    $veraja-slate: #2f4447;              // More contrast, still slate-blue
+    $veraja-blue-on-pale-blue: #c4f0f7;  // Slightly deeper for text contrast on light bg
+    $veraja-bright-blue: #007c8c;        // More saturated + darker tone
+    $veraja-hover-blue: #1fb7bb;         // Slightly deeper to improve hover visibility
+    $veraja-pale-blue: #2598a4;          // Darkened and more saturated
+    $veraja-footer-blue: #1e2b35;        // Much darker for footer contrast
+    $veraja-off-white: #f0f0f0;          // Slightly darker for better contrast with white text
 
